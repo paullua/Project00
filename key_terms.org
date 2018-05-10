@@ -37,92 +37,473 @@ c. He levitates, he's an alien "HEELLLLLOOOO!"
 
 d. Why do I care about Superman again, he's in the D.C. universe ... so dark and terrible movies!
 
-Contrapositive
+Websites used:
+http://www.mathwords.com/
 
-Converse
+*Contrapositive
+** identify
+N/A
+** Define
+Contrapositives switch the hypothesis and conclusion of a logical
+statement and then negate them both.
+** Example/Explanation
+p -> q is a logical conditional statement.
 
-inverse
+Let's suppose that p is "I drink water"
+and q is "my thirst is quenched".
+This equates to "If I drink water, my thirst is quenched."
 
-R: real numbers
+The contrapositive of the conditional statement would be
+~q -> ~p.
 
-Z: integers
+For our sentence this would be "If my thirst in not quenched,
+I did not drink water".
 
-Q: rational numbers
+The contrapositive of a true proposition is also true.
 
-predicate
+** Non-Trivial Test question
+p is "I started reading book B" and q is "I finished reading book A".
+What is the contrapositive of p -> q in sentence form?
 
-Domain
+Answer: "If I have not finished reading book A, I have not started reading book B".
 
-CoDomain
+*Converse
+** identify
+N/A
+** Define
+The converse of a proposition switches the hypothesis and conclusion.
+** Example/Explanation
+p -> q is a logical conditional statement.
 
-quantifier
+Let's suppose that p is "I drink water"
+and q is "my thirst is quenched".
+This equates to "If I drink water, my thirst is quenched."
 
-antecedent
+The converse of that conditional statement is 
+q -> p.
 
-consequent
+The changes our statement to "If my thirst is quenched,
+I must have drank water".
 
-Set
+A proposition may be true, but the converse is not necessarily
+true. As an example with the converse above, my thirst could be
+quenched from drinking juice. It did not have to be water that I
+was drinking.
 
-Fallacy
+** Non-Trivial Test question
+p is "I started reading book B" and q is "I finished reading book A".
+What is the converse of p -> q in sentence form?
 
-biconditional
+Answer: "If I finished reading book A, I have started reading book B".
 
-sufficient condition
+*inverse
+** identify
+N/A
+** Define
+The inverse of a proposition negates the hypothesis and the conclusion.
+** Example/Explanation
+p -> q is a logical conditional statement.
 
-necessary condition
+Let's suppose that p is "I drink water"
+and q is "my thirst is quenched".
+This equates to "If I drink water, my thirst is quenched."
 
-~p
+~p -> ~q is the inverse of our conditional statement.
 
-p ^ q
+In sentence form, this is "If I did not drink water, my thrist is not quenched".
 
-p V q
+A proposition may be true, but the inverse might be false.
 
-p XOR q
+** Non-Trivial Test question
+p is "I started reading book B" and q is "I finished reading book A".
+What is the inverse of p -> q in sentence form?
 
-p == q
+Answer: "If I haven't finished reading book A, I haven't started reading book B".
 
-p -> q
+*R: real numbers
+** identify
+R is the set of all real numbers.
 
-p <--> q
+** Define
+R is the set of all real numbers, and real numbers are all of the numbers that 
+are on a number line.
 
-Three dots in a triangle
+** Example/Explanation
+The set of all real numbers includes all positive, negative, whole, and floating point numbers.
 
-upside down A
+** Non-Trivial Test question
+Which of the following is NOT a real number.
+a. 3.14159
+b. 867.5309
+c. sqrt(-1)
+d. 42
 
-Backwards E
+*Z: integers
+** identify
+Z is the set of all integers.
 
-union
+** Define
+Z is the set of all integers, and integers are all the whole numbers.
 
-intersection
+** Example/Explanation
+The set of all integers is all of the negative and positive whole numbers.
+This means that floating point and fraction numbers are not included in this
+set.
 
-Commutative laws
+** Non-Trivial Test question
+x is an even number. Which of the following do we know is true?
 
-associative laws
+a. x is a negative number
+b. x is a positive number
+c. x is not in Z
+d. x is in is Z
 
-distributive laws
+*Q: rational numbers
+** identify
+Q is the set of all rational numbers.
 
-identity laws
+** Define
+Q is the set of all rational number, and rational numbers are numbers 
+are a subset of R where the real numbers can be represented by a ratio
+of integers where the denominator is an non-zero integer.
 
-negation laws
+** Example/Explanation
+Any number that can be represented either as a whole number or as a 
+ratio of integers is in the set Q. This can include numbers that have 
+a repeating decimal such as .333333... (which can be represented as 1 / 3).
+Numbers (like e) that cannot be represented as a fraction of integers are 
+not included in this set.
 
-double negative law
+** Non-Trivial Test question
+True or false: Pi is a rational number.
 
-idempotent laws
+Answer: false
 
-universal bound laws
+*predicate
+** identify
+N/A
 
-De morgan's laws
+** Define
+A predicate is a function whose codomain is the set [true false].
+The domain can be any conceivable set, however.
 
-absorption laws
+** Example/Explanation
+A predicate basically comes down to being a function that returns a boolean,
+and it can have any number of inputs and any type of input.
 
-negations of t and c
+An example of a predicate could be a function that takes a year and 
+return true if the year is a leap year or false if it is not a leap
+year.
 
-vacuously true
+Predicates are similar to propositions.
 
-Modus Ponens
+** Non-Trivial Test question
+Which of the following functions would be a predicate?
 
-Modus Tollens
+a. isEmpty()
+b. getNumItems()
+c. a and b
+d. None of the above
 
-Elimination: valid argument form
+*Domain
+** identify
+N/A
 
-Transitivity: Valid Argument form
+** Define
+The domain is the set of all possible inputs for a function.
+
+** Example/Explanation
+Domains vary from function to function.
+
+For a function that could only take positive integers for arguments,
+the domain would be Z+ ( or all positive integers ).
+
+If a function could take any number, the domain would be R ( or all real numbers ).
+
+** Non-Trivial Test question
+What is the domain of this C++ function?
+
+// prototype
+bool myFunc(long num);
+
+a. R
+b. Z
+c. Q
+d. None of the above
+
+*CoDomain
+** identify
+N/A
+
+** Define
+The codomain is the set of all possible outputs of a function.
+
+** Example/Explanation
+Whatever the return type of a function is determines the codomain.
+
+** Non-Trivial Test question
+What is the codomain of this C++ function?
+
+// prototype
+bool myFunc(long num);
+
+a. R
+b. Z
+c. Q
+d. [true false]
+
+*quantifier
+** identify
+https://en.wikipedia.org/wiki/Quantifier_(logic)
+
+** Define
+"In logic, quantification specifies the quantity of specimens in the domain of discourse that satisfy an open formula...
+A language element which generates a quantification (such as "every") is called a quantifier."
+   - Taken from the wikipedia article (see link in identify)
+     
+** Example/Explanation
+Two of the most common quantifiers are "for all" and "there exists".
+
+These both can give a quantity for a logical statement:
+"For all students in this room, there exists at least one chair."
+
+** Non-Trivial Test question
+What are the quantifiers of the following sentence?
+"For all students in this room, there exists at least one chair."
+
+a. For all
+b. there exists
+c. students
+d. a and b
+
+*antecedent
+** identify
+N/A
+
+** Define
+This is the first half of a logical proposition.
+
+** Example/Explanation
+In the conditional statement p -> q, p is the antecedent.
+
+For the phrase "I drink water, then I am not thirsty",
+the antecedent is "I drink water".
+
+** Non-Trivial Test question
+Circle the antecedent:
+"I drink water, then I am not thirsty." 
+
+*consequent
+** identify
+N/A
+
+** Define
+This is the second  half of a logical statement.
+
+** Example/Explanation
+In the conditional statement p -> q, q is the consequent. 
+
+For the phrase "I drink water, then I am not thirsty",
+the consequent is "I am not thirsty".
+
+** Non-Trivial Test question
+Circle the consequent:
+"I drink water, then I am not thirsty." 
+
+*Set
+** identify
+** Define
+** Example/Explanation
+** Non-Trivial Test question
+
+*Fallacy
+** identify
+** Define
+** Example/Explanation
+** Non-Trivial Test question
+
+*biconditional
+** identify
+** Define
+** Example/Explanation
+** Non-Trivial Test question
+
+*sufficient condition
+** identify
+** Define
+** Example/Explanation
+** Non-Trivial Test question
+
+*necessary condition
+** identify
+** Define
+** Example/Explanation
+** Non-Trivial Test question
+
+*~p
+** identify
+** Define
+** Example/Explanation
+** Non-Trivial Test question
+
+*p ^ q
+** identify
+** Define
+** Example/Explanation
+** Non-Trivial Test question
+
+*p V q
+** identify
+** Define
+** Example/Explanation
+** Non-Trivial Test question
+
+*p XOR q
+** identify
+** Define
+** Example/Explanation
+** Non-Trivial Test question
+
+*p == q
+** identify
+** Define
+** Example/Explanation
+** Non-Trivial Test question
+
+*p -> q
+** identify
+** Define
+** Example/Explanation
+** Non-Trivial Test question
+
+*p <--> q
+** identify
+** Define
+** Example/Explanation
+** Non-Trivial Test question
+
+*Three dots in a triangle
+** identify
+** Define
+** Example/Explanation
+** Non-Trivial Test question
+
+*upside down A
+** identify
+** Define
+** Example/Explanation
+** Non-Trivial Test question
+
+*Backwards E
+** identify
+** Define
+** Example/Explanation
+** Non-Trivial Test question
+
+*union
+** identify
+** Define
+** Example/Explanation
+** Non-Trivial Test question
+
+*intersection
+** identify
+** Define
+** Example/Explanation
+** Non-Trivial Test question
+
+*Commutative laws
+** identify
+** Define
+** Example/Explanation
+** Non-Trivial Test question
+
+*associative laws
+** identify
+** Define
+** Example/Explanation
+** Non-Trivial Test question
+
+*distributive laws
+** identify
+** Define
+** Example/Explanation
+** Non-Trivial Test question
+
+*identity laws
+** identify
+** Define
+** Example/Explanation
+** Non-Trivial Test question
+
+*negation laws
+** identify
+** Define
+** Example/Explanation
+** Non-Trivial Test question
+
+*double negative law*
+** identify
+** Define
+** Example/Explanation
+** Non-Trivial Test question
+
+*idempotent laws
+** identify
+** Define
+** Example/Explanation
+** Non-Trivial Test question
+
+*universal bound laws
+** identify
+** Define
+** Example/Explanation
+** Non-Trivial Test question
+
+*De morgan's laws
+** identify
+** Define
+** Example/Explanation
+** Non-Trivial Test question
+
+*absorption law
+** identify
+** Define
+** Example/Explanation
+** Non-Trivial Test question
+
+*negations of t and c
+** identify
+** Define
+** Example/Explanation
+** Non-Trivial Test question
+
+*vacuously true
+** identify
+** Define
+** Example/Explanation
+** Non-Trivial Test question
+
+*Modus Ponens
+** identify
+** Define
+** Example/Explanation
+** Non-Trivial Test question
+
+*Modus Tollens
+** identify
+** Define
+** Example/Explanation
+** Non-Trivial Test question
+
+*Elimination: valid argument form
+** identify
+** Define
+** Example/Explanation
+** Non-Trivial Test question
+
+*Transitivity: Valid Argument form
+** identify
+** Define
+** Example/Explanation
+** Non-Trivial Test question
