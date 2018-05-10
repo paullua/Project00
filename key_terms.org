@@ -298,51 +298,139 @@ Circle the consequent:
 
 * Set
 ** identify
+N/A
 ** Define
+A group of values/items which represent all the possible inputs,
+possible outputs or actual outputs of a function.
 ** Example/Explanation
+Sets give you a list of values which all meet the same requirements.
+It can either be a finite set, such as a list of numbers: 
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9] 
+or it can be an infinite set, such as a set of numbers which are all multiples
+of 3.
 ** Non-Trivial Test question
+Which number does not belong to the following set?
+a. 16
+b. 41
+c. 8
+d. 32
+----------------------------------------------------------------------------------
 
 * Fallacy
 ** identify
+N/A
 ** Define
+A mistaken belief or failure in reasoning that renders an argument invalid.
 ** Example/Explanation
+Fallacy's are faulty logic, which can occur with boolean tables that have
+incorrect inputs. For example: "All Jedi's have lightsabers" and "Taylor has
+a lightsaber" so "Taylor must be a Jedi" is a fallacy, since owning a lightsaber
+does not necissarily make one a Jedi. Taylor is certainly not one!
 ** Non-Trivial Test question
+Given the statment "If it snows, then it is cold outside", which of the following
+is a fallacy?
+a. It snowed, so it must be cold outside
+b. It is cold, so it must have snowed
+c. It did not snow, therefore it is not cold outside
+d. both b & c.
+-------------------------------------------------------------------------------------
 
 * biconditional
 ** identify
+<-->
 ** Define
+Statements whuch are true whenever both parts have the same truth value
 ** Example/Explanation
+"p if and only if q" is an example of a biconditional statement and is represented 
+by p <--> q, where p and q must either both be true or both be false to output a "1" or
+"true" value.
 ** Non-Trivial Test question
+given: p: A student at BYU-I is full-time.
+       q: A student has atleast 12 credits.
+How would you write the biconditional statement p <--> q given these two statements?
+--------------------------------------------------------------------------------------
 
 * sufficient condition
 ** identify
+N/A
 ** Define
+A condition that must be satisfied for a statement to be true and without which the
+statement cannot be true.
 ** Example/Explanation
 ** Non-Trivial Test question
+For example: A sufficient condition for getting an A in the Discreet Math class would be
+to get an A on all the assignments. :) If you can do that, it is "sufficient" to get
+an A in the class.
+** Non-Trivial Test question
+Mark the following as true or false:
+T  F  Being a girl is sufficient conditon for being a wife.
+T  F  Being a wife is sufficient condition for being a girl.
+T  F  Being dead is sufficient condition for being murdered.
+T  F  Being murdered is sufficient condition for being dead.
+-------------------------------------------------------------------------------------------
 
 * necessary condition
 ** identify
+N/A
 ** Define
+A condition that must be satisfied for a statement to be true, but that is not in
+and of itself necessarily true.
 ** Example/Explanation
+For example: A necessary condition to get an A in Discreet math is to turn in your
+projects. If you don't turn them in, you won't get an A... but turning them in does 
+not autimatically insure the grade either.
 ** Non-Trivial Test question
+Mark the following as true or false:
+T  F  A necessary condition to be judged in court is to be accused of something.
+T  F  Being alive is a necessary condition for having a right to live.
+T  F  If I am self-made and rich, then it is a necessary condition that I worked hard.
+------------------------------------------------------------------------------------------
 
 * ~p
 ** identify
+Not p or negation
 ** Define
+The tilde (~) is used to negate the value of p. Meaning it will become 0, instead of 1
+or vise versa.
 ** Example/Explanation
+If p's value is 1, then ~p is worth 0. Because the "~" symbol negates the value of p.
+Another example would be if p = raining outside, then ~p = not raining outside.
 ** Non-Trivial Test question
+How would you write "if q and not-p"?
+----------------------------------------------------------------------------------------
 
 * p ^ q
 ** identify
+p and q.
 ** Define
+Used to mean that a statement is true only if both p and q are true.
 ** Example/Explanation
+For example: I want my phone to unlock only if I press the power button AND enter the
+password. So, using the equation p ^ q where p represents the power being on and q
+is the correct password being entered could be used to represent whether or not my
+phone will unlock.
 ** Non-Trivial Test question
+Write the truth table for the equation p ^ q.
+---------------------------------------------------------------------------------------
 
 * p V q
 ** identify
+p or q.
 ** Define
+Used to mean that a statement is true if p or q or both are true.
 ** Example/Explanation
+For example: I will only be friends with someone who owns a cat or a dog. I can use the
+equation p V q where p represents owning a cat and q represents owning a dog to show 
+whether or not I will be friends with a person.
 ** Non-Trivial Test question
+Fill in the following blanks on the truth table
+p | q | p V q
+--------------
+0 | 0 |  
+0 | 1 |  
+1 | 0 |  
+1 | 1 |
+-------------------------------------------------------------------------------------
 
 * p XOR q
 ** identify
