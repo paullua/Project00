@@ -40,7 +40,7 @@ d. Why do I care about Superman again, he's in the D.C. universe ... so dark and
 Websites used:
 http://www.mathwords.com/
 
-*Contrapositive
+*Contrapositive*
 ** identify
 N/A
 ** Define
@@ -204,6 +204,7 @@ a. isEmpty()
 b. getNumItems()
 c. a and b
 d. None of the above
+--------------------------------------------------------------------------------
 
 *Domain
 ** identify
@@ -251,6 +252,7 @@ a. R
 b. Z
 c. Q
 d. [true false]
+--------------------------------------------------------------------------------
 
 *quantifier
 ** identify
@@ -275,6 +277,7 @@ a. For all
 b. there exists
 c. students
 d. a and b
+--------------------------------------------------------------------------------
 
 *antecedent
 ** identify
@@ -292,6 +295,7 @@ the antecedent is "I drink water".
 ** Non-Trivial Test question
 Circle the antecedent:
 "I drink water, then I am not thirsty." 
+--------------------------------------------------------------------------------
 
 *consequent
 ** identify
@@ -309,6 +313,7 @@ the consequent is "I am not thirsty".
 ** Non-Trivial Test question
 Circle the consequent:
 "I drink water, then I am not thirsty." 
+--------------------------------------------------------------------------------
 
 *Set
 ** identify
