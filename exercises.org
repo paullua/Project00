@@ -201,6 +201,11 @@ It will replace the top line of output ("red" "blue" "green") with (nil nil nil)
   Explain how this version of =morphify= works.
   
 *** Your answer goes here.
+It seems like the two functions have essentially the same effect and output the same things.
+The second morphing function doesn't loop through a list, instead it seems to go until "null"
+or the end of the list is reached, at which point, it stops. While going through the list, it 
+seems to be appendaging the words from the list to each other inlowercase letters.
+
 ** TODO TGE
   Note the difference if -13 is used instead of 13 below:
 #+BEGIN_SRC emacs-lisp :results silent
