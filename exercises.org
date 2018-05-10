@@ -36,6 +36,13 @@
 #+END_SRC
 
 ***  Your answer goes here.
+In order these are the outputs of the functions:
+1. 6
+2. ERROR: d has not been assigned a value
+3. [+ a b c d]
+4. 10
+5. no output
+6. 11
 ** TODO TEJ
   A function-as-association between elements of a domain and elements of a
   codomain, for \ldquo{}small\rdquo domains and codomains, inspired so-called \ldquo{}association
@@ -71,6 +78,27 @@
   There are several variations of =assoc=. Find and give examples of using them.
 
 *** Your answer goes here.
+some other functions are:
+1. rassoc which basically is the reverse of assoc
+example function:
+#+BEGIN_SRC emacs-lisp :results silent
+  (defun lookup-rgb (color-name)
+    (rest (rassoc color-name
+                 '(("red" 255 0 0) ("green" 0 255 0) ("blue" 0 0 255)))))
+#+END_SRC
+
+2. assq can be used to compare things in lists
+#+BEGIN_SRC emacs-lisp :results silent
+(setq trees '((pine . cones) (oak . acorns) (maple . seeds)))
+          (assq 'pine trees)
+#+END_SRC
+
+3. The revere of assq is rassq:
+#+BEGIN_SRC emacs-lisp :results silent
+(setq trees '((pine . cones) (oak . acorns) (maple . seeds)))
+          (rassq 'pine trees)
+#+END_SRC
+
 ** TODO WFK
   In the function-as-map context, here is another interpretation:
 
