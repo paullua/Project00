@@ -392,6 +392,10 @@ Not p or negation
 ** Define
 The tilde (~) is used to negate the value of p. Meaning it will become 0, instead of 1
 or vise versa.
+** Truth Table:
+p  ~p
+0  1
+1  0
 ** Example/Explanation
 If p's value is 1, then ~p is worth 0. Because the "~" symbol negates the value of p.
 Another example would be if p = raining outside, then ~p = not raining outside.
@@ -404,6 +408,12 @@ How would you write "if q and not-p"?
 p and q.
 ** Define
 Used to mean that a statement is true only if both p and q are true.
+** Truth Table:
+p  q  p ^ q
+0  0    0
+0  1    0
+1  0    0
+1  1    1
 ** Example/Explanation
 For example: I want my phone to unlock only if I press the power button AND enter the
 password. So, using the equation p ^ q where p represents the power being on and q
@@ -418,49 +428,116 @@ Write the truth table for the equation p ^ q.
 p or q.
 ** Define
 Used to mean that a statement is true if p or q or both are true.
+** Truth Table
+p  q  p V q
+0  0    0
+0  1    1
+1  0    1
+1  1    1
 ** Example/Explanation
 For example: I will only be friends with someone who owns a cat or a dog. I can use the
 equation p V q where p represents owning a cat and q represents owning a dog to show 
 whether or not I will be friends with a person.
 ** Non-Trivial Test question
-Fill in the following blanks on the truth table
-p | q | p V q
---------------
-0 | 0 |  
-0 | 1 |  
-1 | 0 |  
-1 | 1 |
+create a truth table for the equation p V q.
 -------------------------------------------------------------------------------------
 
 * p XOR q
-** identify
+** identify'
+exclusively p or q, but not both.
 ** Define
+Used to mean that a statement is true only if p OR q is true, but not if both of them
+are true.
+** Truth Table
+p  q  p XOR q
+0  0     0
+0  1     1
+1  0     1
+1  1     0
 ** Example/Explanation
+For example: I only want one pet, either a cat or a dog but not both. I can use the
+equation p XOR q to reptrsent this, where p represents owning a cat and q represents
+owning a dog to show wether or not I own one pet.
 ** Non-Trivial Test question
+create a truth table for the equation p XOR q.
+-------------------------------------------------------------------------------------
 
 * p == q
 ** identify
+p and q are equal.
 ** Define
+Used to mean that p and q are equal to each other. If they are not equal, then
+the statement is false.
+** truth table
+p  q  p == q
+0  0    1
+0  1    0
+1  0    0
+1  1    1
 ** Example/Explanation
+For example: If we want to know if we both own pets, p could represent me owning a pet
+and q could represent you owning a pet. So if p and q are both 0, it is true that we both
+don't own pets and if p and q are 1, it is true that we both own pets.
 ** Non-Trivial Test question
+write a truth table for the equation p == q.
+---------------------------------------------------------------------------------------
 
 * p -> q
 ** identify
+q is a result of p.
 ** Define
+This means that q will result in p.
+** truth table
+p  q  p -> q
+0  0    1
+0  1    1
+1  0    0
+1  1    1
 ** Example/Explanation
+Given that p represents drinking water and q represents feeling quenched, using the above
+truth table we can see that it fits for this statement. I can either not drink water and
+not be quenched, not drink water since I am already quenched, or drink water and be quenched.
+But I cannot drink water and not be quenched.
 ** Non-Trivial Test question
+create a truth table for the equation p -> q.
+----------------------------------------------------------------------------------------
 
 * p <--> q
 ** identify
+** truth table
+p  q  p <--> q
+0  0     1
+0  1     0
+1  0     0
+1  1     1
 ** Define
+The output is only true if both p and q are false or both p and q are true.
 ** Example/Explanation
+For example, I could say that p represents battery full and q represents screen on. The
+output is a notification. So, using the equation p <--> q, a notification will only be
+output if either the battery is full and the screen is on, or the battery is not full and
+the screen is off.
 ** Non-Trivial Test question
+create a truth table for the equation p <--> q.
+----------------------------------------------------------------------------------------
 
 * Three dots in a triangle
 ** identify
+Therefore
 ** Define
+It is a shorthand way of saying therefore. Or because of this, THEREFORE that.
 ** Example/Explanation
+For example, the statements all God's are immortal, and Zeus is a God. We could use the
+Three dots in a triangle to say "therefore, Zeus is immortal". Connecting the two statements
+together.
 ** Non-Trivial Test question
+Which of the following is a correct "therefore" statement, given that God's are immortal and
+Zeus is a God.
+a. Therefore, Zeus is immortal
+b. Therefore, God is Zeus
+c. a & b
+d. neither a nor b
+-----------------------------------------------------------------------------------------
 
 * upside down A
 ** identify
