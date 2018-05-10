@@ -164,6 +164,7 @@ example function:
   =make-hash-table= call?
   
 *** Your answer goes here.
+It will replace the top line of output ("red" "blue" "green") with (nil nil nil)
 ** TODO TER
   This exercise explores /looping/ versus /mapping/.
 
