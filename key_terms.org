@@ -100,8 +100,11 @@ The set of all real numbers includes all positive, negative, whole, and floating
 ** Non-Trivial Test question
 Which of the following is NOT a real number.
 a. 3.14159
+
 b. 867.5309
+
 c. sqrt(-1)
+
 d. 42
 
 * Z: integers
@@ -120,8 +123,11 @@ set.
 x is an even number. Which of the following do we know is true?
 
 a. x is a negative number
+
 b. x is a positive number
+
 c. x is not in Z
+
 d. x is in is Z
 
 * Q: rational numbers
@@ -167,8 +173,11 @@ Predicates are similar to propositions.
 Which of the following functions would be a predicate?
 
 a. isEmpty()
+
 b. getNumItems()
+
 c. a and b
+
 d. None of the above
 
 * Domain
@@ -193,8 +202,11 @@ What is the domain of this C++ function?
 bool myFunc(long num);
 
 a. R
+
 b. Z
+
 c. Q
+
 d. None of the above
 
 * CoDomain
@@ -214,10 +226,12 @@ What is the codomain of this C++ function?
 bool myFunc(long num);
 
 a. R
+
 b. Z
+
 c. Q
+
 d. [true false]
---------------------------------------------------------------------------------
 
 * quantifier
 ** identify
@@ -239,10 +253,12 @@ What are the quantifiers of the following sentence?
 "For all students in this room, there exists at least one chair."
 
 a. For all
+
 b. there exists
+
 c. students
+
 d. a and b
---------------------------------------------------------------------------------
 
 * antecedent
 ** identify
