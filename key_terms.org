@@ -3,44 +3,10 @@
 #+OPTIONS: H:4 num:nil toc:nil \n:nil @:t ::t |:t ^:t *:t TeX:t LaTeX:t
 #+OPTIONS: html-postamble:nil
 #+STARTUP: showeverything entitiespretty
-
-NOTE: Be sure, when you are searching that they are logical defintions, that is
-they are definitions that relate to math and Logic.
-
-Example
-* Superman Cannot be jumping really high
-** identify
-Superman is sometimes debated around his flying abilities
-Some say that he is merely jumping and due to his speed and 
-strength it appears to you and I that he is merely jumping and
-moving his body to go up and down after that.
-** Define
-This is obviously false.  Superman is indeed levitating and not
-Jumping
-** Example/Explanation
-If Superman were jumping when he catches Lois Lane she would be cut in half
-due to the speed and trajectory of superman being the man of steel. This is because
-he would have to slow/stop to the same speed as Lois to catch her and then "rejump".
-He visually does not appear to be 'rejumping' and Lois isnt cut in half.  DONE!
-** Non-Trivial Test question
-What would be the best way to describe Superman's flight
-
-
-a. He jumps and with his strength and speed is able to alter his path
-
-
-b. He flys like a bird and flaps his wings
-
-
-c. He levitates, he's an alien "HEELLLLLOOOO!"
-
-
-d. Why do I care about Superman again, he's in the D.C. universe ... so dark and terrible movies!
-
 Websites used:
 http://www.mathwords.com/
 
-*Contrapositive*
+* Contrapositive
 ** identify
 N/A
 ** Define
@@ -67,7 +33,7 @@ What is the contrapositive of p -> q in sentence form?
 
 Answer: "If I have not finished reading book A, I have not started reading book B".
 
-*Converse
+* Converse
 ** identify
 N/A
 ** Define
@@ -96,7 +62,7 @@ What is the converse of p -> q in sentence form?
 
 Answer: "If I finished reading book A, I have started reading book B".
 
-*inverse
+* inverse
 ** identify
 N/A
 ** Define
@@ -120,7 +86,7 @@ What is the inverse of p -> q in sentence form?
 
 Answer: "If I haven't finished reading book A, I haven't started reading book B".
 
-*R: real numbers
+* R: real numbers
 ** identify
 R is the set of all real numbers.
 
@@ -138,7 +104,7 @@ b. 867.5309
 c. sqrt(-1)
 d. 42
 
-*Z: integers
+* Z: integers
 ** identify
 Z is the set of all integers.
 
@@ -158,7 +124,7 @@ b. x is a positive number
 c. x is not in Z
 d. x is in is Z
 
-*Q: rational numbers
+* Q: rational numbers
 ** identify
 Q is the set of all rational numbers.
 
@@ -179,7 +145,7 @@ True or false: Pi is a rational number.
 
 Answer: false
 
-*predicate
+* predicate
 ** identify
 N/A
 
@@ -204,9 +170,8 @@ a. isEmpty()
 b. getNumItems()
 c. a and b
 d. None of the above
---------------------------------------------------------------------------------
 
-*Domain
+* Domain
 ** identify
 N/A
 
@@ -232,7 +197,7 @@ b. Z
 c. Q
 d. None of the above
 
-*CoDomain
+* CoDomain
 ** identify
 N/A
 
@@ -254,7 +219,7 @@ c. Q
 d. [true false]
 --------------------------------------------------------------------------------
 
-*quantifier
+* quantifier
 ** identify
 https://en.wikipedia.org/wiki/Quantifier_(logic)
 
@@ -279,7 +244,7 @@ c. students
 d. a and b
 --------------------------------------------------------------------------------
 
-*antecedent
+* antecedent
 ** identify
 N/A
 
@@ -297,7 +262,7 @@ Circle the antecedent:
 "I drink water, then I am not thirsty." 
 --------------------------------------------------------------------------------
 
-*consequent
+* consequent
 ** identify
 N/A
 
@@ -315,199 +280,169 @@ Circle the consequent:
 "I drink water, then I am not thirsty." 
 --------------------------------------------------------------------------------
 
-*Set
+* Set
 ** identify
 ** Define
 ** Example/Explanation
 ** Non-Trivial Test question
 
-*Fallacy
+* Fallacy
 ** identify
 ** Define
 ** Example/Explanation
 ** Non-Trivial Test question
 
-*biconditional
+* biconditional
 ** identify
 ** Define
 ** Example/Explanation
 ** Non-Trivial Test question
 
-*sufficient condition
+* sufficient condition
 ** identify
 ** Define
 ** Example/Explanation
 ** Non-Trivial Test question
 
-*necessary condition
+* necessary condition
 ** identify
 ** Define
 ** Example/Explanation
 ** Non-Trivial Test question
 
-*~p
+* ~p
 ** identify
 ** Define
 ** Example/Explanation
 ** Non-Trivial Test question
 
-*p ^ q
+* p ^ q
 ** identify
 ** Define
 ** Example/Explanation
 ** Non-Trivial Test question
 
-*p V q
+* p V q
 ** identify
 ** Define
 ** Example/Explanation
 ** Non-Trivial Test question
 
-*p XOR q
+* p XOR q
 ** identify
 ** Define
 ** Example/Explanation
 ** Non-Trivial Test question
 
-*p == q
+* p == q
 ** identify
 ** Define
 ** Example/Explanation
 ** Non-Trivial Test question
 
-*p -> q
+* p -> q
 ** identify
 ** Define
 ** Example/Explanation
 ** Non-Trivial Test question
 
-*p <--> q
+* p <--> q
 ** identify
 ** Define
 ** Example/Explanation
 ** Non-Trivial Test question
 
-*Three dots in a triangle
+* Three dots in a triangle
 ** identify
 ** Define
 ** Example/Explanation
 ** Non-Trivial Test question
 
-*upside down A
+* upside down A
 ** identify
 ** Define
 ** Example/Explanation
 ** Non-Trivial Test question
 
-*Backwards E
+* Backwards E
 ** identify
 ** Define
 ** Example/Explanation
 ** Non-Trivial Test question
 
-*union
+* union
 ** identify
 ** Define
 ** Example/Explanation
 ** Non-Trivial Test question
 
-*intersection
+* negation laws
 ** identify
 ** Define
 ** Example/Explanation
 ** Non-Trivial Test question
 
-*Commutative laws
+* double negative law*
 ** identify
 ** Define
 ** Example/Explanation
 ** Non-Trivial Test question
 
-*associative laws
+* idempotent laws
 ** identify
 ** Define
 ** Example/Explanation
 ** Non-Trivial Test question
 
-*distributive laws
+* universal bound laws
 ** identify
 ** Define
 ** Example/Explanation
 ** Non-Trivial Test question
 
-*identity laws
+* De morgan's laws
 ** identify
 ** Define
 ** Example/Explanation
 ** Non-Trivial Test question
 
-*negation laws
+* absorption law
 ** identify
 ** Define
 ** Example/Explanation
 ** Non-Trivial Test question
 
-*double negative law*
+* negations of t and c
 ** identify
 ** Define
 ** Example/Explanation
 ** Non-Trivial Test question
 
-*idempotent laws
+* vacuously true
 ** identify
 ** Define
 ** Example/Explanation
 ** Non-Trivial Test question
 
-*universal bound laws
+* Modus Ponens
 ** identify
 ** Define
 ** Example/Explanation
 ** Non-Trivial Test question
 
-*De morgan's laws
+* Modus Tollens
 ** identify
 ** Define
 ** Example/Explanation
 ** Non-Trivial Test question
 
-*absorption law
+* Elimination: valid argument form
 ** identify
 ** Define
 ** Example/Explanation
 ** Non-Trivial Test question
 
-*negations of t and c
-** identify
-** Define
-** Example/Explanation
-** Non-Trivial Test question
-
-*vacuously true
-** identify
-** Define
-** Example/Explanation
-** Non-Trivial Test question
-
-*Modus Ponens
-** identify
-** Define
-** Example/Explanation
-** Non-Trivial Test question
-
-*Modus Tollens
-** identify
-** Define
-** Example/Explanation
-** Non-Trivial Test question
-
-*Elimination: valid argument form
-** identify
-** Define
-** Example/Explanation
-** Non-Trivial Test question
-
-*Transitivity: Valid Argument form
+* Transitivity: Valid Argument form
 ** identify
 ** Define
 ** Example/Explanation
