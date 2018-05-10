@@ -506,10 +506,10 @@ create a truth table for the equation p -> q.
 ** identify
 ** truth table
 p  q  p <--> q
-0  0     1
-0  1     0
-1  0     0
-1  1     1
+0  0     1\n
+0  1     0\n
+1  0     0\n
+1  1     1\n
 ** Define
 The output is only true if both p and q are false or both p and q are true.
 ** Example/Explanation
