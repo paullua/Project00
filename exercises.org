@@ -225,6 +225,7 @@ seems to be appendaging the words from the list to each other inlowercase letter
   Is the hard way correct?
   
 *** Your answer goes here.
+Yes, if you remove the negative sign from "the hard way" then the function won't output anything.
 ** TODO THP
   Graph the floor and ceiling functions f(x) = \lfloor{}x\rfloor and f(x) = \lceil{}x\rceil for real
   number values of x in the interval [-5.0 .. 5.0].
