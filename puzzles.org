@@ -21,19 +21,74 @@ with only 2 weights!
 *** Approach
 *** Solution
 *** Proof
-** TODO TME
+
+** DONE TME
+   CLOSED: [2018-05-11 Fri 20:33]
+   :LOGBOOK:
+   CLOCK: [2018-05-11 Fri 20:00]--[2018-05-11 Fri 20:33] =>  0:33
+   :END:
   Sequences can be non-numeric as well. What is the pattern for this sequence?
 : [m b w y me be wi yo met bew ith you meta bewi thyo uati metap bewit hyoua tirel]
   How long can it continue?
 *** Rephrase
+Find the pattern in the sequence and find how long the sequence can continue.
+
 *** Approach
+I will use the title of the text book (Metaphors Be With You: A Tireless Work On Play On Words)
+to finish the sequence.
+
 *** Solution
+There are 44 characters in the text book title (excluding spaces and punctuation).
+
+The first 4 items of the sequence are the first letters of the first 4 words of
+the title of the text book. The next 4 in the sequence still use the title, but
+it is then divided into 2 characters per item in the sequence, using the same positions
+from the previous 4. This pattern continues until the last 4 items in the sequence 
+each have 11 characters. This means that there will be 44 items in the sequence in total.
+
 *** Proof
+And now, presenting, the greatest of all proofs! Well... I guess that's a bit objective
+(but not object programming since we are focusing on functional programming).
+Well, on with the proof!
+
+To prove what was explained in the solution, I shall type out the entirety of the 
+sequence:
+
+[m b w y 
+ me be wi yo 
+ met bew ith you 
+ meta bewi thyo uati 
+ metap bewit hyoua tirel
+ metaph bewith youati reless
+ metapho bewithy ouatire lesswor
+ metaphor bewithyo uatirele ssworkon
+ metaphors bewithyou atireless workonplay
+ metaphorsb ewithyouat irelesswor konplayonw
+ metaphorsbe withyouatir elessworkon playonwords]
 
 ** TODO WRA
   Why is the sum of the reciprocals of the powers of two scaled by which power
   equal to two?
 *** Rephrase
+Explain why the summation for i = 0 to infinity (1/2^i) is equal to 2.
+
 *** Approach
+I will use a graph, calculus, and other mathy tools to explain why this summation
+equals 2.
+
 *** Solution
+If we look at the first several items we get the following:
+
+1 + 1/2 + 1/4 + 1/8 + ...
+
+The first few items of the sequence add up to 1.875. If we continue down the series
+we get closer and closer to 2 but never actually reaching it.
+
+1 + 1/2 + 1/4 + 1/8 + 1/16 + 1/32 + 1/64 + 1/128 + 1/256 + 1/512 = 1.99804... 
+
+As the series continues, the denominator becomes larger and each item in the sequence approaches zero. 
+Given that this this series goes to infinity and by an understanding of limits in calculus, we can see
+that this series converges to the value 2.
+
 *** Proof
+[[file:./InfiniteSum.png][Appeal to Authority]] (Wolfram Alpha is never wrong)
