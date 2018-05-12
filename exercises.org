@@ -231,6 +231,7 @@ Yes, if you remove the negative sign from "the hard way" then the function won't
   number values of x in the interval [-5.0 .. 5.0].
   
 *** Your answer goes here.
+[[file:./desmos-graph.png][This is the link]]
 ** TODO WKM
   Which of these statements about floor and ceiling are correct, for any real
   number $x$ and any integers $n$ and $m$?
