@@ -504,6 +504,7 @@ create a truth table for the equation p -> q.
 
 * p <--> q
 ** identify
+Biconditional statement
 ** truth table
 p  q  p <--> q
 0  0     1
@@ -626,37 +627,100 @@ d. p
 * idempotent laws
 ** identify
 ** Define
+   In Boolean algebra, Idempotent Law states that combining a quantity with itself either by logical 
+   addition or logical multiplication will result in a logical sum or product that is the equivalent 
+   of the quantity.
 ** Example/Explanation
+   A + A = A; A x A = A 
 ** Non-Trivial Test question
-
+   Give an example of an Idempotent law using real numbers.
 * universal bound laws
 ** identify
 ** Define
+   When both sides of a logical statement are equivalent to each other.
 ** Example/Explanation
+   p∧c≡c
 ** Non-Trivial Test question
+   
 
 * De morgan's laws
 ** identify
 ** Define
+   The complement of the union of two sets is equal to the intersection of their complements 
+   and the complement of the intersection of two sets is equal to the union of their complements.
 ** Example/Explanation
+   (A ∩ B)' = A' U B'
+
+   Let M = (A ∩ B)' and N = A' U B'
+
+   Let x be an arbitrary element of M then x ∈ M ⇒ x ∈ (A ∩ B)'
+
+   ⇒ x ∉ (A ∩ B)
+
+   ⇒ x ∉ A or x ∉ B
+
+   ⇒ x ∈ A' or x ∈ B'
+
+   ⇒ x ∈ A' U B'
+
+   ⇒ x ∈ N
+
+   Therefore, M ⊂ N
+
 ** Non-Trivial Test question
+   If two sets A = {1,2,3,4,5,6} and B = {2,3,4,8} then prove that (A ∩ B)' = A' ∪ B'
 
 * absorption law
 ** identify
 ** Define
+   a theorem in logic: to affirm that either some proposition is true or else that 
+   that proposition and some other proposition are both true is equivalent to affirming 
+   the first proposition.
 ** Example/Explanation
+   p ∨ (p ∧ q) ≡ p, p ∧ (p ∨ q) ≡ p
 ** Non-Trivial Test question
+   Which one shows an example of an absorption law?
+
+   A. p∧q≡q∧p,p∨q≡q∨p
+
+   B.(p∧q)∧r ≡p∧(q∧r) 
+     (p∨q)∨r ≡p∨(q∨r)
+   
+   C. p ∨ (q ∧ r) ≡ (p ∨ q) ∧ (p ∨ r)
+      p ∧ (q ∨ r) ≡ (p ∧ q) ∨ (p ∧ r)
+
+   D. p ∨ (p ∧ q) ≡ p, p ∧ (p ∨ q) ≡ p
+   
 
 * negations of t and c
 ** identify
+   The negations of tautology and a contradiction
 ** Define
+   Negating a tautology would always make it false
+   and negating a contradiction would always make it true.
 ** Example/Explanation
+   p ∨ ¬ p
+   is a tautology.
+
+   ~(p v ¬p)
+   is not a tautology
+
+   p ∧ ¬ p
+   is a contradiction.
+
+   ~(p ∧ ¬ p)
+   is not a contradiction
+
 ** Non-Trivial Test question
+   Is a negated tautology a contradiction?
 
 * vacuously true
 ** identify
 ** Define
 ** Example/Explanation
+   The statement "all cell phones in the room are turned off" will be true whenever there are no cell phones in the room. 
+   In this case, the statement "all cell phones in the room are turned on" would also be vacuously true, as would the conjunction of the two: 
+   "all cell phones in the room are turned on and turned off".
 ** Non-Trivial Test question
 
 * Modus Ponens
