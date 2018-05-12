@@ -259,6 +259,7 @@ Yes, if you remove the negative sign from "the hard way" then the function won't
 8. false
 9. true
 10. false
+
 ** TODO TIW
 
   Define the function \ldquo{}round to nearest integer\rdquo using the floor and ceiling
@@ -266,6 +267,55 @@ Yes, if you remove the negative sign from "the hard way" then the function won't
   fractional part is less than one-half should be rounded down, otherwise up.)
 
 ***  Your answer goes here.
+
+#+BEGIN_SRC elisp
+ Ceiling = has brackets that only close on the top
+ Floor = has bracket that only close on the bottom
+ Inversion Bracket = has brackets that close on top and bottom like this [x] 
+#+END_SRC
+  
+  Ceiling: "Function... which gives the smallest integer >= x" Ex. 3.4 -> 4 
+  
+  Floor: Function which gives the "largest integer less than or equal 
+         to x"; Ex. 3.4 -> 3
+
+  Inversion Bracket: [S]={0 if S is false
+                         {1 if S is true 
+  "This notation conflicts with the brackets sometimes used to denote the 
+  floor function."
+
+  Round (to nearest integer): "round converts its argument by rounding to the 
+  nearest integer; if number is exactly halfway between two integers (that is, 
+  of the form integer+0.5), then it is rounded to the one that is even 
+  (divisible by 2)."
+
+  The function "round to nearest integer" will round a number to its nearest 
+  integer. Rounding down to the nearest integer functions much like the floor 
+  function so if the number ends with .0-.4 then the number will be rounded down.
+  Rounding up to the nearest integer will act like the ceiling function where a 
+  number ending in .6-.9 will round the number up to the closest integer. When 
+  the number is exactly halfway between two integers (ending in .5) then it will 
+  be rounded to the number that is even. For example, 2.5 rounds to 2 but 3.5 
+  rounds to 4. The decision of whether to round up or down for a number ending 
+  in .5 can be determined like the inversion bracket. 
+  
+  Ex. [num] = {0 if num is not even (false)
+              {1 if num is even (true)
+
+  So if the number is not even (inversion bracket representation 0) then the 
+  number would round up to the nearest even integer 3.5 -> 4. If the number is 
+  even (inversion bracket representation 1) then the number would round down to 
+  its even integer 2.5 -> 2.
+
+#+BEGIN_SRC elisp
+Sources 
+ Ceiling: http://mathworld.wolfram.com/CeilingFunction.html
+ Floor: http://mathworld.wolfram.com/FloorFunction.html
+ Inversion Bracket: http://mathworld.wolfram.com/IversonBracket.html
+ Round (to nearest integer): https://www.cs.cmu.edu/Groups/AI/html/cltl/clm/node130.html
+#+END_SRC
+
+
 ** TODO TKG
   Explore the inverse of =assoc= via the functions =rassoc= and associates.
 
