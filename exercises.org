@@ -249,6 +249,16 @@ Yes, if you remove the negative sign from "the hard way" then the function won't
       0$ as in statement 8).
   
 *** Your answer goes here.
+1. true
+2. true
+3. true
+4. true
+5. true
+6. true
+7. true
+8. false
+9. true
+10. false
 ** TODO TIW
 
   Define the function \ldquo{}round to nearest integer\rdquo using the floor and ceiling
