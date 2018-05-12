@@ -641,7 +641,7 @@ d. p
 ** Example/Explanation
    p∧c≡c
 ** Non-Trivial Test question
-   
+   Is the Inverse p ∧ c ≡ c an example of a Universally Bound Law?
 
 * De morgan's laws
 ** identify
@@ -717,32 +717,81 @@ d. p
 * vacuously true
 ** identify
 ** Define
+   Since the conditional p → q is true whenever the antecedent p is false, 
+   we call this a vacuous (empty, void) truth, because any consequent whatsoever follows from a false antecedent. 
+   The “dual” of a vacuously true conditional is one that is trivially true, when the consequent q is true — 
+   then whether or not the antecedent is true has no effect on the conditional — it is always (trivially) true.
 ** Example/Explanation
    The statement "all cell phones in the room are turned off" will be true whenever there are no cell phones in the room. 
-   In this case, the statement "all cell phones in the room are turned on" would also be vacuously true, as would the conjunction of the two: 
-   "all cell phones in the room are turned on and turned off".
+   In this case, the statement "all cell phones in the room are turned on" would also be vacuously true,
+   as would the conjunction of the two: "all cell phones in the room are turned on and turned off".
 ** Non-Trivial Test question
+   Is the statement "all water is blue" vacuously true? 
 
 * Modus Ponens
 ** identify
 ** Define
+   p->q , p, therefore (three dots and a triangle) q
 ** Example/Explanation
+   Man is Mortal
+   Brother Benning is mortal
 ** Non-Trivial Test question
+   Would this statment be a valid Modus Ponens example?
+   
+   Man is dirt
+   James is dirt
 
 * Modus Tollens
 ** identify
 ** Define
+   if p then q
+        ~q
+     (Three Dots and a triangle) p
 ** Example/Explanation
+   If I am happy, then I smile. I am not smiling, therefore I am not happy.
 ** Non-Trivial Test question
+   Which one of these is a Modus Tollens?
+
+   A. If there is smoke, there is fire. There is not fire, so there is no smoke.
+
+   B. If my thirst in not quenched I did not drink water, I did not drink water my thirst is quenched
+
+   C. If I am happy, then I smile. I am not smilling, therefore I am not happy.
+
+   D. A & B
 
 * Elimination: valid argument form
 ** identify
+   Disjunction Elimination
 ** Define
+   It is the inference that if a statement P
+   P implies a statement Q and a statement R
+   also implies Q, then if either P or R
+   R is true, then Q has to be true. 
+   The reasoning is simple: 
+   since at least one of the statements P and R is true, 
+   and since either of them would be sufficient to entail Q, Q is certainly true.
 ** Example/Explanation
+   If I'm inside, I have my wallet on me.
+   If I'm outside, I have my wallet on me.
+   It is true that either I'm inside or I'm outside.
+   Therefore, I have my wallet on me.
 ** Non-Trivial Test question
+   If I'm at home I have my keys
+   If I'm away at home I have my keys
+   It is true that I'm either at home or away from
+   Therefore I have my keys
+
+   Is this a Disjunction Elimination?
 
 * Transitivity: Valid Argument form
 ** identify
+   Hypothetical Syllogism
 ** Define
+   Having a conditional statement for one or both of its premises.
 ** Example/Explanation
+   If I do not wake up, then I cannot go to work.
+   If I cannot go to work, then I will not get paid.
+   Therefore, if I do not wake up, then I will not get paid.
 ** Non-Trivial Test question
+   Write a Hypothetical Syllogism.
