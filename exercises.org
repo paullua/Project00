@@ -338,6 +338,17 @@ an a-list as inverse mapping.
   10. =[2 3 5 7 11 13 17 19 23 29 ...]=
 
 ***  Your answer goes here.
+1. y = x + 7
+2. y = x + 4
+3. start by adding 1 to 3, then add 2, then 3, and increment by 1 every time
+4. counting in binary. Use boolean algebra counting up by 1
+5. you add the last two numbers together. Ex: 1 + 1 = 2, 2 + 3 = 5, 5 + 8 =13 and so on.
+6. If it's an odd number, you add that number to ((the number * 2) + 1). If the number is even,
+you divide it by 2. For example, 11 * 2 = 22 + 1 = 23 + 11 = 34. And 34 divided by 2 = 17
+7. you add the last two numbers together. Ex. 3 + 4 = 7 and 18 + 29 = 47.
+8. multiply the number by 2.
+9. multiply the number by 3
+10. 
 ** TODO WQW
   Classify the following lisp functions according as each is or is not a predicate:
   | Predicate? | Yes or No? |
@@ -353,3 +364,15 @@ an a-list as inverse mapping.
   | =oddp=     |            |
 
 ***  Your answer goes here. (Replicate the above table.)
+  | Predicate? | Yes or No? |
+  |------------+------------|
+  | =list=     |     no     |
+  | =listp=    |     yes    |
+  | =integerp= |     yes    |
+  | =vector=   |     no     |
+  | =vectorp=  |     no     |
+  | =symbolp=  |     yes    |
+  | =zerop=    |     yes    |
+  | =evenp=    |     yes    |
+  | =oddp=     |     yes    |
+
