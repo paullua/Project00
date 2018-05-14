@@ -44,6 +44,7 @@ We chose this number because 2^n is the number that represents everything, and w
 answer to everything.
 * "Real-World" function with mapcar
 ** What is mapcar
+mapcar is a function that calls its first argument with each element of its second argument, in turn. The second argument must be a sequence. The ' map ' part of the name comes from the mathematical phrase, “mapping over a domain”, meaning to apply a function to each of the elements in a domain.
 ** Code
 #+BEGIN_SRC emacs-lisp
 (print "Hello world")
