@@ -52,5 +52,11 @@ NOTE: Comment your code, and verify it works for "breaking cases" i.e. 0! = 1.
 * Loop function
 ** Code
 #+BEGIN_SRC emacs-lisp
+(require 'cl);;
 
+(loop for n from 1 to 9
+      do (princ (format "%d --> %d.\n"
+                        n
+                        ((lambda (n) (if (evenp n) (/ n 2) (+ 1 (* 3 n))))
+                         n))))
 #+END_SRC
