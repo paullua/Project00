@@ -1,0 +1,3 @@
+Lisp Tutorial by Justin Bengtson and Nicki Caswell
+
+{https://docs.google.com/document/d/12dKu4E3bhICc5j40wx5UVpm6y26cd7StD7nxa4ObmN8/edit?usp=sharing}

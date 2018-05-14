@@ -87,7 +87,6 @@
    
    
 Kathryn's Paragraph:
-
 Exercises do not exercise our brains as much as problems do. For example, an 
 exercise could be answering questions on a worksheet for material you have 
 gone over in class while a problem would be writing a report on a topic you are 
@@ -113,3 +112,22 @@ that is why it is important that we do both. Ultimately, however, a runner exerc
 to prepare for the BIG FINAL! Or the marathon. Likewise, excercises should be uses
 to prepare us for the BIG PROBLEMS! Which will be much more satisfying to solve,
 since it will take more time, effort and thought.
+
+Paul Land:
+It was interesting to think about the differences between exercises and problems.
+I often see students in the computer sciece or software engineering majors that
+do not necessarily like problems, and to be fair it is A LOT easier to stay within
+your comfort zone. However, to become a good software engineer, you must become a
+problem solver. In our careers, we won't alway have the benefit of working with 
+technologies that we already know and understand. That's why we need to focus on our
+problem solving skills now. Exercises do allow you to apply the skills you've gained and even 
+help others with things that they need. Exercises make you feel smart and knowledgeable,
+which is why it is easier to stay within your comfortable exercise zone. Exercises are
+good in that they help you retain the knowledge and skills you have built up, but 
+they do not stretch or make you grow. If I learned only basic arithmetics, but only 
+did exercises that I knew I would be able to find an answer to, my mathematical 
+abilities would not grow. What should be done is to take the mathematical skills
+you have gained and use them to approach problems that are just beyond your skill
+level. It is important to do problems that are just outside your skill level because
+if the problem is far beyond your skill level, then you may become overwhelmed and
+the benefit of the problem is lost. 
