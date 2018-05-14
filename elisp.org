@@ -19,6 +19,7 @@ NOTE: Comment your code, and verify it works for "breaking cases" i.e. 0! = 1.
 : factorial
 
 ** Test cases
+
 #+BEGIN_SRC elisp
 (factorial 1)
 #+END_SRC
@@ -27,16 +28,137 @@ NOTE: Comment your code, and verify it works for "breaking cases" i.e. 0! = 1.
 : 1
 
 #+BEGIN_SRC elisp
-(factorial 1)
+(factorial 2)
 #+END_SRC
 
-#+BEGIN_SRC elisp
-(factorial 1)
-#+END_SRC
+#+RESULTS:
+: 2
 
 #+BEGIN_SRC elisp
-(factorial 1)
+(factorial 3)
 #+END_SRC
+
+#+RESULTS:
+: 6
+
+#+BEGIN_SRC elisp
+(factorial 4)
+#+END_SRC
+
+#+RESULTS:
+: 24
+
+#+BEGIN_SRC elisp
+(factorial 5)
+#+END_SRC
+
+#+RESULTS:
+: 120
+
+#+BEGIN_SRC elisp
+(factorial 6)
+#+END_SRC
+
+#+RESULTS:
+: 720
+
+#+BEGIN_SRC elisp
+(factorial 7)
+#+END_SRC
+
+#+RESULTS:
+: 5040
+
+#+BEGIN_SRC elisp
+(factorial 8)
+#+END_SRC
+
+#+RESULTS:
+: 40320
+
+#+BEGIN_SRC elisp
+(factorial 9)
+#+END_SRC
+
+#+RESULTS:
+: 362880
+
+#+BEGIN_SRC elisp
+(factorial 10)
+#+END_SRC
+
+#+RESULTS:
+: 3628800
+
+#+BEGIN_SRC elisp
+(factorial 11)
+#+END_SRC
+
+#+RESULTS:
+: 39916800
+
+#+BEGIN_SRC elisp
+(factorial 12)
+#+END_SRC
+
+#+RESULTS:
+: 479001600
+
+#+BEGIN_SRC elisp
+(factorial 13)
+#+END_SRC
+
+#+RESULTS:
+: 6227020800
+
+#+BEGIN_SRC elisp
+(factorial 14)
+#+END_SRC
+
+#+RESULTS:
+: 87178291200
+
+#+BEGIN_SRC elisp
+(factorial 15)
+#+END_SRC
+
+#+RESULTS:
+: 1307674368000
+
+#+BEGIN_SRC elisp
+(factorial 16)
+#+END_SRC
+
+#+RESULTS:
+: 20922789888000
+
+#+BEGIN_SRC elisp
+(factorial 17)
+#+END_SRC
+
+#+RESULTS:
+: 355687428096000
+
+#+BEGIN_SRC elisp
+(factorial 18)
+#+END_SRC
+
+#+RESULTS:
+: 6402373705728000
+
+#+BEGIN_SRC elisp
+(factorial 19)
+#+END_SRC
+
+#+RESULTS:
+: 121645100408832000
+
+#+BEGIN_SRC elisp
+(factorial 20)
+#+END_SRC
+
+#+RESULTS:
+: -2178784010250747904
 
 ** How big a number will make your computer freeze?
 * "Real-World" function with mapcar
