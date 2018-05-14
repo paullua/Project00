@@ -320,6 +320,10 @@ Sources
   Explore the inverse of =assoc= via the functions =rassoc= and associates.
 
 ***  Your answer goes here.
+assoc searches an a-list in order, making it so you can add objects to the front of the list so they will
+"shadow" the old entries and will not be viewed in the search. rassoc is the reverse of assoc, it searches
+for a pair whose cdr satisfies the test, instead of using car. If assoc represents mapping then rassoc treats
+an a-list as inverse mapping.
 ** TODO WOV
   Identify the formula or rule that generates the terms of each sequence:
   1. =[7 14 21 28 35 42 49 56 63 70 ...]=
