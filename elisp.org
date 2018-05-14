@@ -7,18 +7,48 @@
 NOTE: Comment your code, and verify it works for "breaking cases" i.e. 0! = 1.
 
 * Factorial Code
-** Code
+** TODO Code
 #+BEGIN_SRC emacs-lisp
-(+ 2 3 4)
+(require 'cl)
+(defun factorial (integer)
+   (if (= 1 integer) 1
+      (* integer (factorial (- integer 1)))))
 #+END_SRC
+
+#+RESULTS:
+: factorial
+
 ** Test cases
+#+BEGIN_SRC elisp
+(factorial 1)
+#+END_SRC
+
+#+RESULTS:
+: 1
+
+#+BEGIN_SRC elisp
+(factorial 1)
+#+END_SRC
+
+#+BEGIN_SRC elisp
+(factorial 1)
+#+END_SRC
+
+#+BEGIN_SRC elisp
+(factorial 1)
+#+END_SRC
+
 ** How big a number will make your computer freeze?
 * "Real-World" function with mapcar
 ** What is mapcar
 ** Code
 #+BEGIN_SRC emacs-lisp
-
+(print "Hello world")
 #+END_SRC
+
+#+RESULTS:
+: Hello world
+
 * Loop function
 ** Code
 #+BEGIN_SRC emacs-lisp

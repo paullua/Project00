@@ -14,6 +14,9 @@ with only 2 weights!
 
 * Puzzles
 ** TODO TEU
+   :LOGBOOK:
+   CLOCK: [2018-05-12 Sat 15:37]
+   :END:
   How many numbers between one and a million contain the digit 1 exactly once,
   and the sum of the rest of the digits is 16? Write elisp code with and without
   loops to verify your answer.
@@ -21,6 +24,9 @@ with only 2 weights!
 *** Approach
 *** Solution
 *** Proof
+#+BEGIN_SRC elisp
+
+#+END_SRC
 
 ** DONE TME
    CLOSED: [2018-05-11 Fri 20:33]
