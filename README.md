@@ -41,7 +41,7 @@ Puzzles from 02-ponder-and-prove.org.  I WILL NOT HELP/NOR GIVE HINTS FOR THIS P
 NOTE: You may work in a group or individually. Groups no more than 6.
 
 Contributors:
-Justin Bengston
+Justin Bengtson
 Taylor Matheny
 Kathryn Hollingshead
 Nicki Caswell
