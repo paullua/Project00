@@ -172,9 +172,8 @@ NOTE: Comment your code, and verify it works for "breaking cases" i.e. 0! = 1.
 #+END_SRC
 
 ** How big a number will make your computer freeze?
-It probably would depend on what you are trying to do or what computor you are using. But for sure, 2^42 would definitely do it.
-We chose this number because 2^n is the number that represents everything, and we chose 42 to represent n because it is also the
-answer to everything.
+   20 is where the factorial function breaks and goes negative. Great job elisp.
+
 * "Real-World" function with mapcar
 ** What is mapcar
 "mapcar is a function that calls its first argument with each element of its second argument, in turn. The second argument must
